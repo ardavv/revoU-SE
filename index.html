@@ -1,10 +1,106 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Test</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <p>Hello Dunia</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo-navbar"><span>Aryadavi.</span></a>
+
+        <div class="navbar-navigasi">
+            <a href="#Calculator">Kalkulator BMI</a>
+            <a href="#Hasil">Hasil</a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+
+        <div class="logo">
+            <a href="#"><i data-feather="search"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section class="section hero" id="Calculator">
+        <main class="content">
+            <h2>Calculator BMI</h2>
+            <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+            <h1>Kalkulator</h1>
+            <div class="card" id="form-calculator">
+                <form action="" id="" name="" class="form" method="get">
+                    <div class="form-group">
+                        <strong>Jenis Kelamin*</strong>
+                        <div class="radio-group">
+                            <label><input type="radio" name="jenis-kelamin" id="laki" value="l" required>Laki-Laki</label>
+                            <label><input type="radio" name="jenis-kelamin" id="cewe" value="p" required>Perempuan</label>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label id="Berat-badan" for="berat-badan">Berapa berat badanmu? (kg)*</label>
+    
+                        <div class="icon-input">
+                            <i data-feather="edit-2"></i>
+                            <input  id="beratBadan" type="number" name="berat-badan" required>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="usia">Berapa usiamu? (tahun)*</label>
+                        <div class="icon-input">
+                            <i data-feather="edit-2"></i>
+                            <input id="usia" type="number" name="usia" action="" required></input><span id="Usiaerror"></span>
+                        </div>
+                    
+                        
+                    </div>
+                    <div class="form-group">
+                        <label id="Tinggi-badan" for="tinggi-badan">Berapa tinggi badanmu? (cm)*</label>
+                        <div class="icon-input">
+                            <i data-feather="edit-2"></i>
+                            <input type="number" name="tinggi-badan" id="tinggiBadan" required>
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <input type="submit" name="" value="Hitung BMI!" id="itung">
+                        <input type="reset" name="" id="reset">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div id="hasil">
+            <h2>Hasil</h2>
+            <div class="card" id="box-hasil">
+                <h1 id="kondisi"></h1>
+                <h2 id="nilai-bmi"></h2>
+                <p id="deskripsi-bmi"></p>
+    
+            </div>
+        </div>
+        
+    </section>
+    <!-- Hero Section END -->
+
+
+
+    <script>
+        feather.replace()
+    </script>
+
+    <script src="js/index.js"></script>
+</body>
 </html>
