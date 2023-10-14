@@ -16,6 +16,3 @@ Berikut ini adalah skala yang digunakan:
 18.5 - 25	Normal		Normal
 25 - 27		Gemuk		Kelebihan berat badan tingkat ringan
 >27		Gemuk		Kelebihan berat badan tingkat berat		
-
-untuk lebih lengkapnya bisa cek di github saya
-https://github.com/ardavv
