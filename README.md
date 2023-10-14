@@ -12,8 +12,8 @@ Website ini dibuat bertujuan untuk memudahkan perhitungan BMI tersebut, yang nan
 
 Berikut ini adalah skala yang digunakan:
 
-<17 		Kurus 		Kekurangan berat badan tingkat berat
-17 - 18.5	Kurus		Kekurangan berat badan tingkat rendah
-18.5 - 25	Normal		Normal
-25 - 27		Gemuk		Kelebihan berat badan tingkat ringan
+<17 		Kurus 		Kekurangan berat badan tingkat berat <br />
+17 - 18.5	Kurus		Kekurangan berat badan tingkat rendah <br />
+18.5 - 25	Normal		Normal <br />
+25 - 27		Gemuk		Kelebihan berat badan tingkat ringan <br />
 \>27		Gemuk		Kelebihan berat badan tingkat berat
